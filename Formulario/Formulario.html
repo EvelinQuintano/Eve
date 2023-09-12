@@ -1,0 +1,52 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilo.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="Icon" type="Img/jpg" href="Img/recetas.jpg"> 
+    <title>Formulario de inscripcion</title>
+ </head>
+ <body>
+    <div class="Container-form">
+        <div class="Informacion">
+            <div class="Info">
+           <h2>Bienvenido a Nuestro curso de cocina</h2>
+           <p>Suscribete a nuestro curso para que aprendas muchas recetas mas</p>
+
+            </div>
+
+        </div>
+<div class="form-informacion">
+            <div class="form-informacion-childs">
+                <h2>Registrate</h2>
+                <form  action="https://formspree.io/f/xwkdbvdj"
+                method="POST">
+                    <label >
+                        <i class='bx bxs-user'></i>
+                        <input type="text" name="Nombre" placeholder="Nombre completo" required>
+                    </label>
+                    <label >
+                        <i class='bx bxl-gmail'></i>
+                        <input type="email"  name="Email" placeholder="Correo Electronico" required>
+                    </label>
+                    <label >
+                        <i class='bx bxs-phone'></i>
+                        <input type="text" name="Numero de telefono" placeholder="Numero de telefono" required>
+                    </label>
+                    <label >
+                        <i class='bx bxs-calendar'></i>
+                        <input type="date"  name="Fecha_Nacim" placeholder="Ingresar Fecha de nacimiento" required>
+                    </label>
+                     <input type="submit" value="Registrarse">
+                </form>
+            </div>
+
+
+</div>
+
+    </div>
+    
+ </body>
+ </html>
